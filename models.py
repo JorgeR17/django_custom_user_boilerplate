@@ -11,6 +11,5 @@ class CustomUserManager(UserManager):
 
 class CustomUser(AbstractUser):
     objects = CustomUserManager()
-	
-	# Custom field example:
-    favorite_color = models.Charfield(max_length=20, default="green")
+    # Your custom fields here:
+
