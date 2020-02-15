@@ -1,5 +1,7 @@
 ## Django Custom User boilerplate.
 The initial template for making custom users in django.
+It allows you to add as many fields as you want and also
+allows users to login without checking case sensitivity(Ex: myusername or MyUsername or mYUsErNaMe).
 
 ### Instructions
 1. Create users app in your project.
